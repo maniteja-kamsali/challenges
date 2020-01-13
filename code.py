@@ -173,7 +173,7 @@ class Load():
 if __name__ == '__main__':
     # instantiate the object
     df = Load('data.csv')
-    print(df.addition(10, 20))
+    #print(df.addition(10, 20))
     list2 = df.pick_numbers()
     print(list2)
     print(df.sum_all_numbers())
